@@ -1,15 +1,15 @@
 # SITE CONFIGURATION
 baseurl: "/"
-url: "https://aixpa.github.io"
+url: "https://wic-ita.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: AIxPA                                    # site's title
-description: "Workshop on AI for Public Administrations"      # used by search engines
+title: WiC-ITA                                    # site's title
+description: "Word in Context for Italian"      # used by search engines
 avatar:                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: <p>AIxPA<br>1st Workshop on AI for Public Administration</p>
+header_text: <p>WiC-ITA<br>Word in Context for Italian</p>
 header_feature_image: assets/img/pexels-pixabay-373543.jpg
 header_feature_image_responsive: true
 footer_text: >
