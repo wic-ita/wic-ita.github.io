@@ -7,7 +7,7 @@ tags: [Page]
 ---
 
 
-**Development Data Release**: February 7th, 2023 (11:59 pm Hawaii time)
+**Development Data Release**: February 7th, 2023
 
 **Registration closes**: April 30th, 2023
 
