@@ -7,10 +7,17 @@ tags: [Page]
 ---
 
 
-**Paper submission deadline**: October 17th, 2022 (11:59 pm Hawaii time)
+**Development Data Release**: February 7th, 2023 (11:59 pm Hawaii time)
 
-**Notification of paper acceptance**: October 31st, 2022 
+**Registration closes**: April 30th, 2023
 
-**Camera-ready version deadline**: November 7th, 2022
+**Evaluation window**: May 2nd-19th, 2023
 
-**Workshop (at AI*IA 2022)**: December 2nd, 2022 
+**Results ranking**: May 30th, 2023
+
+**Final report submission**: June 14th, 2023
+
+**Camera-ready version deadline**: November 7th, 2023
+
+**EVALITA 2023**: September 7th-8th, 2023
+
