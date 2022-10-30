@@ -17,7 +17,7 @@ tags: [Page]
 
 **Final report submission**: June 14th, 2023
 
-**Camera-ready version deadline**: November 7th, 2023
+**Camera-ready version deadline**: July 25th, 2023
 
 **EVALITA 2023**: September 7th-8th, 2023
 
