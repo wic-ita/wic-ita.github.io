@@ -2,6 +2,7 @@
 layout: page
 title: Important Dates
 permalink: /dates/
+order: 4
 feature-img: "assets/img/pexels-pawe-l-1309687.jpg"
 ---
 

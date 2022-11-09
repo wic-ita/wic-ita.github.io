@@ -2,6 +2,7 @@
 layout: page
 title: Organizers
 permalink: /organizers/
+order: 5
 feature-img: "assets/img/pexels-rov-camato-700413.jpg"
 ---
 
