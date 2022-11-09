@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Important Dates
+title: 4
 permalink: /dates/
 feature-img: "assets/img/pexels-pawe-l-1309687.jpg"
 tags: [Page]
