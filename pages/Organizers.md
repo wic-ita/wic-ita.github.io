@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 5
+title: "5"
 permalink: /organizers/
 feature-img: "assets/img/pexels-rov-camato-700413.jpg"
 tags: [Page]
