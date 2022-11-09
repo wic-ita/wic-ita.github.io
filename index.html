@@ -5,12 +5,21 @@ title: Home
 order: 1
 feature-img: "assets/img/pexels-pixabay-373543.jpg"
 ---
-
+<!--
 {% assign sorted_pages = site.pages | sort:"order" %}
 {% for node in sorted_pages %}
   <li><a href="{{node.url}}">{{node.title}}</a></li>
 {% endfor %}
-
+-->
+<div class="navbar" id="page-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">EverCoding.net</a>
+          <ul class="nav">
+            <li><a href="/pages.html">Pages</a></li>        
+        <li><a href="/archive.html">Archive</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/messages.html">Messages</a></li>
 
 <h1>Welcome to WiC-ITA</h1>
 
