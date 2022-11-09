@@ -15,3 +15,9 @@ feature-img: "assets/img/pexels-rov-camato-700413.jpg"
 - **Maristella Gatto** - Dipartimento di Ricerca e Innovazione Umanistica, University of Bari, Italy
 - **Pierpaolo Basile** - Department of Computer Science, University of Bari Aldo Moro, Italy
 
+
+<h2>Contacts</h2>
+If you have any question, contact us:
+<ul>
+<li>wicita.evalita@gmail.com</li>
+</ul>
