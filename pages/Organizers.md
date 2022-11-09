@@ -6,10 +6,6 @@ order: 5
 feature-img: "assets/img/pexels-rov-camato-700413.jpg"
 ---
 
-{% assign sorted_pages = site.pages | sort:"order" %}
-{% for node in sorted_pages %}
-  <li><a href="{{node.url}}">{{node.title}}</a></li>
-{% endfor %}
 
 
 # Task Organizers
