@@ -6,7 +6,10 @@ order: 2
 feature-img: "assets/img/pexels-pixabay-373543.jpg"
 ---
 
-
+<p>
+The general goal of the WiC-ITA task is to establish if a word w occurring in two different sentences s<sub>1</sub> and s<sub>2</sub> has the same meaning or not.
+In particular, our task is composed of two sub-tasks: the binary classification (Sub-task 1) and the ranking (Sub-task 2).
+</p>
 
 <p>
 <h2>Sub-task 1: Binary Classification</h2>
