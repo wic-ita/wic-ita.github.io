@@ -35,7 +35,7 @@ Sub-task 2 is structured as follow:
 Given a word <i>w</i> occurring in two different sentences s<sub>1</sub> and s<sub>2</sub>, the system has to assign a score to the sentence pair determining with which degree <i>w</i> has the same meaning in the two sentences. 
 The scoring system for this sub-task is a continuous value where <i>score</i> &#8712; [1,4].
 An higher score corresponds to an higher degree of semantic similarity.
-</br>
+<br>
 An example of output for Sub-task 2:
 </p>
 <img src="/assets/img/example.png" alt="example">
