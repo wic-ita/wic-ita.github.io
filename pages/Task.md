@@ -57,9 +57,9 @@ Systems' predictions will be evaluated against the gold truth using the F1-Score
 Systems' predictions will be evaluated against the gold truth using Spearman Correlation.
 
 <h3> Baselines </h3>
-For the Sub-task 2 we provide the same baseline proposed by \newcite{DBLP:conf/emnlp/RaganatoPCP20} (<i>Baseline 2</i>). The baseline exploits models based on the BERT architecture \cite{devlin-etal-2019-bert} for encoding the target sub-words. The encoded representations are concatenated and fed into a logistic classifier. In cases where the target word is split into multiple sub-tokens, the first sub-token is considered. 
+For the Sub-task 2 we provide the same baseline proposed by Raganato et al. (2020) (<i>Baseline 2</i>). The baseline exploits models based on the BERT architecture (Devlin et al., 2019) for encoding the target sub-words. The encoded representations are concatenated and fed into a logistic classifier. In cases where the target word is split into multiple sub-tokens, the first sub-token is considered. 
 We set the learning rate to 1e-5 and weight decay to 0. The best checkpoint over the ten epochs is selected using the development data.
-Differently from \newcite{DBLP:conf/emnlp/RaganatoPCP20}, we train the baseline to minimise the difference between the model prediction and the gold score computing the mean squared error. We use as pre-trained model XLM-RoBERTa \cite{DBLP:conf/acl/ConneauKGCWGGOZ20}.
+Differently from Raganato et al. (2020), we train the baseline to minimise the difference between the model prediction and the gold score computing the mean squared error. We use as pre-trained model XLM-RoBERTa (Conneau et al., 2020).
 
 The binary baseline (<i>Baseline 1</i>) for Sub-task 1, applies the threshold &delta; = 2. to the predictions of the <i>Baseline 1</i> to obtain discrete labels.
 
@@ -75,3 +75,45 @@ Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. BERT: Pr
 <p>
 Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume Wenzek, Francisco Guzman, Edouard Grave, Myle Ott, Luke Zettlemoyer, and Veselin Stoyanov. 2020. Unsupervised Cross-lingual Representation Learning at Scale. In Dan Jurafsky, Joyce Chai, Natalie Schluter, and Joel R. Tetreault, editors, Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, ACL 2020, Online, July 5-10, 2020, pages 8440–8451. Association for Computational Linguistics.
 </p>
+
+<script>
+const ul = document.getElementsByTagName("nav")[0].getElementsByTagName("ul")[0];
+ul.innerHTML = `
+            <li>
+                <a class="clear" aria-label="Home" title="Home" href="/index.html">
+                     Home 
+                </a>
+            </li>
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Tasks" title="Tasks" href="/task/">
+                     Tasks 
+                </a>
+            </li>
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Data" title="Data" href="/data/">
+                     Data 
+                </a>
+            </li>
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Important Dates" title="Important Dates" href="/dates/">
+                     Important Dates 
+                </a>
+            </li>
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Organizers" title="Organizers" href="/organizers/">
+                     Organizers 
+                </a>
+            </li>
+            <li class="separator"> | </li>
+        <li class="separator"> | </li>
+            <li>
+            	<a id="theme-toggle" title="Home " aria-label="Home" onclick="themeToggle()">
+            		<i class="fas fa-adjust" aria-hidden="true"></i>
+            	</a>
+            </li>
+`;
+</script>
