@@ -6,7 +6,7 @@ order: 2
 feature-img: "assets/img/pexels-pixabay-373543.jpg"
 ---
 
-<p>
+<p align="justify">
 The general goal of the WiC-ITA task is to establish if a word w occurring in two different sentences s<sub>1</sub> and s<sub>2</sub> has the same meaning or not.
 In particular, our task is composed of two sub-tasks: the binary classification (Sub-task 1) and the ranking (Sub-task 2).
 </p>
@@ -57,11 +57,13 @@ Systems' predictions will be evaluated against the gold truth using the F1-Score
 Systems' predictions will be evaluated against the gold truth using Spearman Correlation.
 
 <h3> Baselines </h3>
+<p align="justify">
 For the Sub-task 2 we provide the same baseline proposed by Raganato et al. (2020) (<i>Baseline 2</i>). The baseline exploits models based on the BERT architecture (Devlin et al., 2019) for encoding the target sub-words. The encoded representations are concatenated and fed into a logistic classifier. In cases where the target word is split into multiple sub-tokens, the first sub-token is considered. 
 We set the learning rate to 1e-5 and weight decay to 0. The best checkpoint over the ten epochs is selected using the development data.
 Differently from Raganato et al. (2020), we train the baseline to minimise the difference between the model prediction and the gold score computing the mean squared error. We use as pre-trained model XLM-RoBERTa (Conneau et al., 2020).
-
+<br>
 The binary baseline (<i>Baseline 1</i>) for Sub-task 1, applies the threshold &delta; = 2. to the predictions of the <i>Baseline 1</i> to obtain discrete labels.
+</p>
 
 <h2> References </h2>
 <p>
