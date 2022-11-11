@@ -19,7 +19,7 @@ Given a word <i>w</i> occurring in two different sentences <i>s<sub>1</sub></i> 
 The labeling system for this sub-task is:
  <ul>
   <li>0: the word <i>w</i> has not the same meaning in the two sentences <i>s<sub>1</sub></i> and <i>s<sub>2</sub></i>;</li>
-  <li>1: the word <i>w</i> has the same meaning in the two sentences <i>s<sub>1</sub></i> and <i>s<sub>2</sub></i>
+  <li>1: the word <i>w</i> has the same meaning in the two sentences <i>s<sub>1</sub></i> and <i>s<sub>2</sub></i></li>
 </ul> 
 
 An example of output for Sub-task 1:
