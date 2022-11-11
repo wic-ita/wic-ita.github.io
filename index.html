@@ -91,7 +91,7 @@ If you have any question, contact us:
 </ul>
 
 <script>
-const ul = document.getElementsByTagName("nav").getElementsByTagName("ul");
+const ul = document.getElementsByTagName("nav")[0].getElementsByTagName("ul")[0];
 ul.innerHTML = `
             <li>
                 <a class="clear" aria-label="Home" title="Home" href="/index.html">
@@ -124,6 +124,10 @@ ul.innerHTML = `
             </li>
             <li class="separator"> | </li>
         <li class="separator"> | </li>
-        <li><a id="theme-toggle" title="Home " aria-label="Home" onclick="themeToggle()"><i class="fas fa-adjust" aria-hidden="true"></i></a></li>
+            <li>
+            	<a id="theme-toggle" title="Home " aria-label="Home" onclick="themeToggle()">
+            		<i class="fas fa-adjust" aria-hidden="true"></i>
+            	</a>
+            </li>
 `;
 </script>
