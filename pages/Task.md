@@ -7,7 +7,7 @@ feature-img: "assets/img/pexels-pixabay-373543.jpg"
 ---
 
 <p align="justify">
-The general goal of the WiC-ITA task is to establish if a word w occurring in two different sentences s<sub>1</sub> and s<sub>2</sub> has the same meaning or not.
+The general goal of the WiC-ITA task is to establish if a word <i>w</i> occurring in two different sentences <i>s<sub>1</sub></i> and <i>s<sub>2</sub></i> has the same meaning or not.
 In particular, our task is composed of two sub-tasks: the binary classification (Sub-task 1) and the ranking (Sub-task 2).
 </p>
 
@@ -15,11 +15,11 @@ In particular, our task is composed of two sub-tasks: the binary classification 
 <h2>Sub-task 1: Binary Classification</h2>
 <p align="justify">
 Sub-task 1 is structured as follow:
-Given a word <i>w</i> occurring in two different sentences s<sub>1</sub> and s<sub>2</sub>, the system has to assign a binary label to the sentence pair determining whether <i>w</i> maintains the same meaning or not.
+Given a word <i>w</i> occurring in two different sentences <i>s<sub>1</sub></i> and <i>s<sub>2</sub></i>, the system has to assign a binary label to the sentence pair determining whether <i>w</i> maintains the same meaning or not.
 The labeling system for this sub-task is:
  <ul>
-  <li>0: the word <i>w</i> has not the same meaning in the two sentences s<sub>1</sub> and s<sub>2</sub>;</li>
-  <li>1: the word <i>w</i> has the same meaning in the two sentences s<sub>1</sub> and s<sub>2</sub></li>
+  <li>0: the word <i>w</i> has not the same meaning in the two sentences <i>s<sub>1</sub></i> and <i>s<sub>2</sub></i>;</li>
+  <li>1: the word <i>w</i> has the same meaning in the two sentences <i>s<sub>1</sub></i> and <i>s<sub>2</sub></i>
 </ul> 
 
 An example of output for Sub-task 1:
@@ -32,7 +32,7 @@ An example of output for Sub-task 1:
 <h2>Sub-task 2: Ranking</h2>
 <p align="justify">
 Sub-task 2 is structured as follow:
-Given a word <i>w</i> occurring in two different sentences s<sub>1</sub> and s<sub>2</sub>, the system has to assign a score to the sentence pair determining with which degree <i>w</i> has the same meaning in the two sentences. 
+Given a word <i>w</i> occurring in two different sentences <i>s<sub>1</sub></i> and <i>s<sub>2</sub></i>, the system has to assign a score to the sentence pair determining with which degree <i>w</i> has the same meaning in the two sentences. 
 The scoring system for this sub-task is a continuous value where <i>score</i> &#8712; [1,4].
 An higher score corresponds to an higher degree of semantic similarity.
 <br>
@@ -53,16 +53,16 @@ We will provide rankings for each sub-task and test set:
 <h3> Sub-task 1: Binary Classification </h3>
 Systems' predictions will be evaluated against the gold truth using the F1-Score.
 
-<h3> Sub-task 1: Binary Classification </h3>
+<h3> Sub-task 2: Ranking </h3>
 Systems' predictions will be evaluated against the gold truth using Spearman Correlation.
 
 <h3> Baselines </h3>
 <p align="justify">
-For the Sub-task 2 we provide the same baseline proposed by Raganato et al. (2020) (<i>Baseline 2</i>). The baseline exploits models based on the BERT architecture (Devlin et al., 2019) for encoding the target sub-words. The encoded representations are concatenated and fed into a logistic classifier. In cases where the target word is split into multiple sub-tokens, the first sub-token is considered. 
+For the Sub-task 2 we provide the same baseline proposed by (Raganato et al., 2020) (<i>Baseline 2</i>). The baseline exploits models based on the BERT architecture (Devlin et al., 2019) for encoding the target sub-words. The encoded representations are concatenated and fed into a logistic classifier. In cases where the target word is split into multiple sub-tokens, the first sub-token is considered. 
 We set the learning rate to 1e-5 and weight decay to 0. The best checkpoint over the ten epochs is selected using the development data.
-Differently from Raganato et al. (2020), we train the baseline to minimise the difference between the model prediction and the gold score computing the mean squared error. We use as pre-trained model XLM-RoBERTa (Conneau et al., 2020).
+Differently from (Raganato et al., 2020), we train the baseline to minimise the difference between the model prediction and the gold score computing the mean squared error. We use as pre-trained model XLM-RoBERTa (Conneau et al., 2020).
 <br>
-The binary baseline (<i>Baseline 1</i>) for Sub-task 1, applies the threshold &delta; = 2. to the predictions of the <i>Baseline 1</i> to obtain discrete labels.
+The binary baseline (<i>Baseline 1</i>) for Sub-task 1 applies the threshold &delta; = 2 to the predictions of the <i>Baseline 1</i> to obtain discrete labels.
 </p>
 
 <h2> References </h2>
