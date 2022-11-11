@@ -40,3 +40,38 @@ An example of output for Sub-task 2:
 </p>
 <img src="/assets/img/example.png" alt="example">
 
+
+<h2>Evaluation</h2>
+We will provide rankings for each sub-task and test set: 
+<ul>
+<li> Sub-task 1 Monolingual</li>
+<li> Sub-task 1 Cross-lingual</li>
+<li> Sub-task 2 Monolingual</li>
+<li> Sub-task 2 Cross-lingual</li>
+</ul>
+
+<h3> Sub-task 1: Binary Classification </h3>
+Systems' predictions will be evaluated against the gold truth using the F1-Score.
+
+<h3> Sub-task 1: Binary Classification </h3>
+Systems' predictions will be evaluated against the gold truth using Spearman Correlation.
+
+<h3> Baselines </h3>
+For the Sub-task 2 we provide the same baseline proposed by \newcite{DBLP:conf/emnlp/RaganatoPCP20} (<i>Baseline 2</i>). The baseline exploits models based on the BERT architecture \cite{devlin-etal-2019-bert} for encoding the target sub-words. The encoded representations are concatenated and fed into a logistic classifier. In cases where the target word is split into multiple sub-tokens, the first sub-token is considered. 
+We set the learning rate to 1e-5 and weight decay to 0. The best checkpoint over the ten epochs is selected using the development data.
+Differently from \newcite{DBLP:conf/emnlp/RaganatoPCP20}, we train the baseline to minimise the difference between the model prediction and the gold score computing the mean squared error. We use as pre-trained model XLM-RoBERTa \cite{DBLP:conf/acl/ConneauKGCWGGOZ20}.
+
+The binary baseline (<i>Baseline 1</i>) for Sub-task 1, applies the threshold &delta; = 2. to the predictions of the <i>Baseline 1</i> to obtain discrete labels.
+
+<h2> References </h2>
+<p>
+Alessandro Raganato, Tommaso Pasini, Jose Camacho-Collados, and Mohammad Taher Pilehvar. 2020. XL-WiC: A Multilingual Benchmark for Evaluating Semantic Contextualization. In Bonnie Webber, Trevor Cohn, Yulan He, and Yang Liu, editors, Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing, EMNLP 2020, Online, November 16-20, 2020, pages 7193–7206. Association for Computational Linguistics.
+</p>
+
+<p>
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. BERT: Pre-training of deep bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 4171–4186, Minneapolis, Minnesota, June. Association for Computational Linguistics.
+</p>
+
+<p>
+Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume Wenzek, Francisco Guzman, Edouard Grave, Myle Ott, Luke Zettlemoyer, and Veselin Stoyanov. 2020. Unsupervised Cross-lingual Representation Learning at Scale. In Dan Jurafsky, Joyce Chai, Natalie Schluter, and Joel R. Tetreault, editors, Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, ACL 2020, Online, July 5-10, 2020, pages 8440–8451. Association for Computational Linguistics.
+</p>
