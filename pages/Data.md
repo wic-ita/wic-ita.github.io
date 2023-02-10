@@ -74,7 +74,7 @@ We provide four datasets for model development:
 The <i>train_agr.jsonl</i> which consists of 2,805 training examples for which the two annotators agree
 The <i>train_dis.jsonl</i> which consists of 1,015 training examples for which the two annotators disagree
 The <i>train.jsonl</i> which consists of 3,820 training examples. This dataset is the union of the <i>train_agr.jsonl</i> and <i>train_dis.jsonl</i> datasets
-The <i>dev.jsonl</i> which consists of 500 training examples  
+The <i>dev.jsonl</i> which consists of 500 training examples
 
 
 Both <i>train\_agr.jsonl</i> and <i>dev.jsonl</i> contain the same examples of the training and development set of Subtask 1. 

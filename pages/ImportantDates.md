@@ -7,7 +7,7 @@ feature-img: "assets/img/pexels-pawe-l-1309687.jpg"
 ---
 
 
-**Development Data Release**: February 7th, 2023
+**Development Data Release**: February 10th, 2023
 
 **Registration closes**: April 30th, 2023
 
