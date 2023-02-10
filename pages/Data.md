@@ -6,7 +6,6 @@ order: 3
 feature-img: "assets/img/pexels-pixabay-159751.jpg"
 ---
 
-TBA
 
 <script>
 const ul = document.getElementsByTagName("nav")[0].getElementsByTagName("ul")[0];
@@ -52,9 +51,9 @@ ul.innerHTML = `
 
 
 
-We provide all datasets in the JSON Lines text format containing one example for each line. Datasets are available at
+We provide all datasets in the JSON Lines text format containing one example for each line. 
 
-<a href="https://github.com/wic-ita/data">https://github.com/wic-ita/data</a>
+Datasets are available at <a href="https://github.com/wic-ita/data">https://github.com/wic-ita/data</a>
 
 
 <h1>Subtask 1: Binary Classification</h1>
