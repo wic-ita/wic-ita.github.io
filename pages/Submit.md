@@ -60,7 +60,7 @@ ul.innerHTML = `
 Each participant can submit at utmost <b>three</b> runs. For each run, a short description of the system and the list of data and resources used must be submitted by filling out the form at (You have to log in with a Gmail account):
 
 <center>
-    <a>https://forms.gle/2U5sJnpwFJF7F8Pg6</a>
+    <a href="https://forms.gle/2U5sJnpwFJF7F8Pg6">https://forms.gle/2U5sJnpwFJF7F8Pg6</a>
 </center>
 
 </br>
@@ -87,7 +87,7 @@ The <i>ranking_eng.jsonl</i> is a JSON Lines text file containing for each row a
 
 An example of submission is available at:
 <center>
-<a>https://github.com/wic-ita/data/blob/main/xlm_finetuned.zip</a>
+<a href="https://github.com/wic-ita/data/blob/main/xlm_finetuned.zip">https://github.com/wic-ita/data/blob/main/xlm_finetuned.zip</a>
 </center>
 
 Please, contact us if you experience any issues with the submission at <a>wicita.evalita@gmail.com</a>.
