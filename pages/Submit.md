@@ -57,7 +57,7 @@ ul.innerHTML = `
 
 
 
-Each participant can submit at least <b>three</b> runs. For each run, a short description of the system and the list of data and resources used must be submitted by filling out the form at (You have to log in with a Gmail account):
+Each participant can submit at utmost <b>three</b> runs. For each run, a short description of the system and the list of data and resources used must be submitted by filling out the form at (You have to log in with a Gmail account):
 
 <center>
     <a>https://forms.gle/2U5sJnpwFJF7F8Pg6</a>
