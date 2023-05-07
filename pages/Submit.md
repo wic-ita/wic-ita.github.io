@@ -88,7 +88,8 @@ The <i>ranking_eng.jsonl</i> is a JSON Lines text file containing for each row a
 
 An example of submission is available at:
 <center>
-<a href="https://github.com/wic-ita/data/blob/main/example_submission.zip">https://github.com/wic-ita/data/blob/main/xlm_finetuned.zip</a>
+<a href="https://github.com/wic-ita/data/blob/main/example_submission.zip">https://github.com/wic-ita/data/blob/main/example_submission.zip</a>
 </center>
 
+<br>
 Please, contact us if you experience any issues with the submission at <a>wicita.evalita@gmail.com</a>.
