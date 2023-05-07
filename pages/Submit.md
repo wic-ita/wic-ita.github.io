@@ -17,6 +17,12 @@ ul.innerHTML = `
             </li>
             <li class="separator"> | </li>
             <li>
+                <a class="clear" aria-label="Submit Results" title="Submit Results" href="/task/">
+                     Submit Results 
+                </a>
+            </li>
+            <li class="separator"> | </li>
+            <li>
                 <a class="clear" aria-label="Tasks" title="Tasks" href="/task/">
                      Tasks 
                 </a>
