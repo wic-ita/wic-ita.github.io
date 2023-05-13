@@ -11,7 +11,7 @@ feature-img: "assets/img/pexels-pawe-l-1309687.jpg"
 
 **Registration closes**: April 30th, 2023
 
-**Evaluation window**: May 2nd-19th, 2023
+**Evaluation window**: May 7th-14th, 2023
 
 **Results ranking**: May 30th, 2023
 
